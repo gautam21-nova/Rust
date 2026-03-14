@@ -1,1 +1,23 @@
+--This is a small rust program in which we are tried to cover all scalar data types:--
+1.int
+2.float
+3.string literals
+4.boolean
 
+--Also know we have covered about functions in rust:--
+1.non argument + non return value(void)
+2.non argument + return value
+3.argument + no return value
+4.argument + return value
+
+syntax:  
+        fn function_name()->(type of return value or can be void based on your program){
+            
+            //return statment;
+            //writing return is optional we can directly type value without(;)
+        }
+
+Note: 
+1.fn main() -> it is our entry point for the application.
+2.In Rust the identfiers,members,function_name should be in snake_case.
+2.We have seen some lifetime concepts(&'static str) which we will be seeing in future.
